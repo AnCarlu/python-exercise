@@ -1,0 +1,19 @@
+timetable=[['John','Sidney','Suarez','Boyd','Moreno'],
+    ['Dominic','Preston','Collin','Jackson'],
+    ['Tamia','Moreno','Dominik','Alicia'],
+    ['Alicia','Boyd','Collin','Jackson'],
+    ['Suarez','Jackson','Tamia']]
+print(timetable[2][1])
+print(timetable[0][2])
+print(timetable[3].index('Collin'))  
+timetable[2]=['Mando','John','Mike']
+timetable[3].remove('Boyd')
+print(timetable)
+next_timetable=timetable.copy()
+next_timetable[4]=timetable[0]
+print(timetable)
+print(next_timetable)
+next_timetable[3].append('Suarez')
+del next_timetable[0][3:4]
+next_timetable[0].insert(0,'Collin')
+print(next_timetable)
