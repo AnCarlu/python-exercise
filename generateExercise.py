@@ -1,4 +1,4 @@
-#1. Escriba una función generadora que imprima el número con la multiplicación de 2 al ranfo dado de enteros
+#1. Escriba una función generadora que imprima el número con la multiplicación de 2 al rango dado de enteros
 def generate_num(number):
     for i in range(number):
         yield i

@@ -17,3 +17,9 @@ fruits_copy.setdefault(6,'pineapples')
 fruits_copy.pop(5)
 #Muestra los elementos de la cpia del diccionario
 print(list(fruits_copy.items()))
+#Eliminar todos los elementos de fruist_copy
+fruits_copy.clear()
+#Utiliza la siguiente lista de claves para crear un diccionario con el método fromKeys()
+Keys=('one','two','three','four')
+numbers=dict.fromkeys(Keys)
+

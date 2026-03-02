@@ -22,5 +22,5 @@ print(inventory["branch2"]["biscuits"])
 products={"cholotate", "biscuits","juice","milk","apples","chips","orange"}
 lang_enum=enumerate(products)
 
-dict_lang=dict((i,j)for i,j in lang_enum)
-print(dict_lang)
+codes=dict((i,j)for i,j in lang_enum)
+print(codes)
